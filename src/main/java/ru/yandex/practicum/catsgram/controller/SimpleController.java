@@ -1,5 +1,6 @@
 package ru.yandex.practicum.catsgram.controller;
 
+<<<<<<< HEAD
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -26,3 +27,16 @@ public class SimpleController {
         return "Котограм";
     }
 }
+=======
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class SimpleController {
+
+    @GetMapping("/home")
+    public String homePage() {
+        return "Котограм";
+    }
+}
+>>>>>>> 49acd1e373f941e6e90c353bc306819e0cebb04f

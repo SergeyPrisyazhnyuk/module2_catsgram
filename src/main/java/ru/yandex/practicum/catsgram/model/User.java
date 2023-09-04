@@ -4,12 +4,16 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class User {
+<<<<<<< HEAD
 
     private Integer userId;
+=======
+>>>>>>> 49acd1e373f941e6e90c353bc306819e0cebb04f
     private String email;
     private String nickname;
     private LocalDate birthdate;
 
+<<<<<<< HEAD
 
     public User(String email, String nickname, LocalDate birthdate) {
         this.email = email;
@@ -28,6 +32,8 @@ public class User {
         this.userId = userId;
     }
 
+=======
+>>>>>>> 49acd1e373f941e6e90c353bc306819e0cebb04f
     public String getEmail() {
         return email;
     }
